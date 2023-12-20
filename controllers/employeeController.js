@@ -15,7 +15,7 @@ const createEmployee = async(req,res) => {
 
   } catch (error){
     console.log("there is an  error:",error)
-    res.status(500).json({message: 'server error'})
+    res.status(500).json({message: 'server error test error'})
   }
 }
 
